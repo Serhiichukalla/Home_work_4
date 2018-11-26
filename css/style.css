@@ -1,0 +1,198 @@
+body{
+	background: url(../img/background.png) repeat-x;
+	background-position: 0 -40px;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 0 10px black;
+	border-bottom: 3px solid #031d28; 
+}
+
+
+.header{
+	height: 173px;
+	width: 100%;
+}
+
+.logo{
+	display: block;
+	width: 285px;
+	height: 165px;
+	position: relative;
+	bottom: -9px;
+	left:25px;
+	float: left;
+}
+
+.contact_info{
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	font-size: 12px;
+	color: #128aa7;
+	font-family: "Tahoma";
+	line-height: 16px;
+	margin-top: 20px;
+}
+
+.links{
+	clear: both;
+}
+
+.links li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.links li:last-child{
+	margin-right: 0;
+}
+
+.links a{
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	font-family: "Tahoma";	
+	color: #128aa7;
+}
+
+.links img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+.info{
+	width: 165px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+.info p:first-child{
+	margin-bottom: 5px;
+}
+
+.banner{
+	height: 237px;
+	width: 100%;
+	background: url(../img/banner.png);
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+
+.menu{
+	height: 30px;
+	width: 940px;
+	background: #353535;
+	padding-top: 10px;
+	padding-left: 60px;
+	border-bottom: 1px solid black;
+
+}
+
+.menu li{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 45px;
+	font-size: 14px;
+  	font-family: "Tahoma";
+  	padding-bottom: 10px;
+  	
+}
+
+
+.menu li a{
+		text-decoration: none;
+		color: white;
+
+}
+
+.has_sub{
+	position: relative;
+	height: 30px;
+}
+
+.has_sub:hover .sab_menu{
+	display: block;
+}
+
+.sab_menu{
+	position: absolute;
+	display: none;
+	left: -3px;
+	margin-top: 15px;
+	
+}
+
+.sab_menu li{
+	display: block;
+	height: 23px;
+	background: #353535;
+	color: white;
+	padding: 5px 20px 0px 15px;
+	margin:  0px;
+	text-align: left;
+}
+
+.content{
+	background: white;
+	width: 1000px;
+	height: 545px;
+}
+
+.left_block,.right_block{
+	width: 210px;
+	height: 100%;
+	background: #edeef0;
+	border-right: 1px solid #c7cacf;
+	border-left: 1px solid #c7cacf;
+	float: left;
+  	color: #424c43;	
+}
+
+.block p:first-child{
+	font-size: 18px;
+  	margin-top:13px;
+  	margin-left: 50px;
+  	margin-bottom: 5px;
+  	font-weight: bold;
+}
+
+.block p{
+	font-family: "Tahoma";
+	font-size: 14px;
+	margin-left: 15px;
+	height: 26px;
+}
+
+.main_block{
+	float: left;
+	width: 576px;
+	height: 100%;
+}
+
+.footer{
+	width: 100%;
+	height: 30px;
+	font-family: "Tahoma";
+	font-size: 12px;
+	background: #0c739f;
+	color: white;
+	padding-top: 14px;
+	text-align: center;
+}
+
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid white;
+	display: inline-block;
+	position: relative;
+	bottom: 1px;
+}
